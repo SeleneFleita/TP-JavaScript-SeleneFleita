@@ -1,6 +1,9 @@
 let edad = prompt("ingrese su edad: ")
 
-if ( edad >= 0 && edad <= 12){
+
+if (isNaN(edad)){
+console.log("El caracter ingresado no es valido")
+}else if( edad >= 0 && edad <= 12){
     console.log("niño")
 }else if(edad >= 13 && edad <= 19 ){
 console.log("adolescente")
