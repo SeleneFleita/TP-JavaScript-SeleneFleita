@@ -70,6 +70,5 @@ while (cont !== 0) {
         default:
             console.log("Valor ingresado no valido");
     }
-
 }
 alert("Ha salido del administrador de tareas")
